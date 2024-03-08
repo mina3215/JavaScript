@@ -29,6 +29,8 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - console.log
 - 변수와 상수 (let, const)
 
+[Datatype](./DataType)
+- 
 
 # CSS
 
