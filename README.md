@@ -25,6 +25,11 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - JavaScript는 “Prototype” 기반의 객체 지향 언어이기 때문에 C++이나 JAVA와는 다르다.
 - ECMA라는 국제 기관에서 JS의 표준을 제작한다! (JavaScript = ECMAScript!)
 
+[Basic](./Basic)
+- console.log
+- 변수와 상수 (let, const)
+
+
 # CSS
 
 
