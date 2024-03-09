@@ -2,9 +2,9 @@
 [DataType](./datatype.js)
 1) 원시 자료형
 2) 참조 자료형
-
-
-
+  
+  
+  
 ## 원시 자료형 primitive data types
 - 담백하게 값 하나만 담는 단순 자료형 
 
