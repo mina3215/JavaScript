@@ -3,6 +3,8 @@
 1) 원시 자료형
 2) 참조 자료형
 
+
+
 ## 원시 자료형 primitive data types
 - 담백하게 값 하나만 담는 단순 자료형 
 
@@ -26,6 +28,9 @@
 
 - let x = null/ typeof null 은 object이다. >> js의 잘못 만든 부분
 - 따라서 typeof로 object와 구분할 수 없다. 다른 방법으로 구분 필요.
+
+
+
 
 # 자료형과 정적, 동적 타입
 [동적, 정적 타입](./dynammic)
@@ -68,6 +73,9 @@ ex) '1'==1 // '1'을 string -> number로 바꿔버림. true
 - x += y : x에 y를 이어붙이고 그 결과를 반환 ( 부수 효과가 있다 )
 -> 프로그래밍에서 부수 효과는 별로 좋지 않습니다. 
 -> 
+
+
+
 
 # 숫자(Number)와 관련 연산자
 [Number 연산자](./NumberOperator.js)
