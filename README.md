@@ -5,10 +5,7 @@
 
 *****
 
-<<<<<<< HEAD
 ---
-=======
->>>>>>> 34d0e6a2a2f036bececb4437c0b27eb8bcb91797
 
 # ABOUT THIS LECTURE
 
@@ -29,12 +26,8 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 
 - javascript는 html/css 같은 마크업(배치,장식하는) 언어를 동작할 수 있게 한다.
 - 때문에, 원래는 js는 “브라우저” 언어 였다. 
-<<<<<<< HEAD
   
   > > node.js .. v8엔진을 추출해내서 js를 모바일/로컬 등 어디서나 사용 가능하도록 만들었음.
-=======
-  > node.js .. v8엔진을 추출해내서 js를 모바일/로컬 등 어디서나 사용 가능하도록 만들었음.
->>>>>>> 34d0e6a2a2f036bececb4437c0b27eb8bcb91797
 - Javascript는 인터프리터 언어임. << 컴파일 과정을 거치지 않음. 개발이 빠르나 버그가 좀 걸리고 약간 느림
 - JavaScript는 동적 언어를 가진다. >> 오류의 여지를 만듦 >> 타입 스크립트
 - JavaScript는 “Prototype” 기반의 객체 지향 언어이기 때문에 C++이나 JAVA와는 다르다.
@@ -49,6 +42,13 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 
 - 자료형> 원시 자료형, 참조 자료형 
 - 자료형의 정적, 동적 타입 
+- string, string 연산자
+- number, number 연산자
+- 부동소수점
+- boolean, boolean 연산자
+- 객체와 배열
+- 원시 타입 vs 참조 타입
+
 
 # CSS
 
