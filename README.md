@@ -49,6 +49,12 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - 객체와 배열
 - 원시 타입 vs 참조 타입
 
+[Controll](./Controll/)
+- 블럭과 스코프
+- if else 
+- for >> for of for in
+- while
+- switch
 
 # CSS
 
