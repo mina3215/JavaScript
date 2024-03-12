@@ -5,7 +5,6 @@
 
 *****
 
----
 
 # ABOUT THIS LECTURE
 
@@ -16,7 +15,6 @@ Visual Studio command
 - 세미콜론을 붙입니다.
   (JS에서는 ASI를 사용해서 알아서 ;를 붙여주지만...오류가 나는 상황이 있기 때문에.. 붙이는게 편함) 
 
----
 
 # JavaScript
 
