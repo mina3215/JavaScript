@@ -55,7 +55,15 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - switch
 
 ⭐️[Function](./Function/)
-
+- 기본 함수 사용 > 기본 함수형, 변수형, 화살표 함수
+- 일급 객체 = 함수
+- 컬링
+- 함수의 파라미터
+  - arguments
+  - rest parameter (...함수그룹명)
+- 나머지 함수
+  - IIFE
+  - 불변성
 
 # CSS
 
