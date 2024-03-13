@@ -57,6 +57,7 @@
 **💡 new 생략 실수 방지하기**
  - function 생성자함수명( 인자 ){~~`, if(!new.target){return new 생성자함수명(인수)}} << 재귀로!! 방지 가능! 
 
+⭐️ ⭐️ ⭐️ ⭐️ ⭐️ 
 ## 클래스 (Class)
 [class MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes)
 [클래스](./class.js)
