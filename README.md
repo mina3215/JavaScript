@@ -67,6 +67,7 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 
 ⭐️[Object & Class](./Object&Class/)
 - 객체 기초
+  - 객체 리터럴 : ({}) 중괄호로 키 value 값 갖고 있는거.
 - 생성자 함수
 - 클래스
   - 클래스의 생성자 메서드
