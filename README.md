@@ -74,6 +74,17 @@ JavaScript 기초 ~ 빡구현 PJT 까지
   - 클래스의 메서드
   - 필드
   - static 필드
+- 접근자 프로퍼티와 은닉
+  - getter & setter
+  - private `#`
+- 상속
+  - extends
+  - overriding
+  - super
+- 스프레드, 디스트럭터링
+  - spread `...`
+  - destructuring `{}`
+
 
 # CSS
 

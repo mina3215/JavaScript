@@ -108,6 +108,7 @@
 
 
 ## 접근자 프로퍼티와 은닉
+[getter setter private](./getterSetter.js)
 - getter, setter : 스스로는 값을 갖지 않고 다른 프로퍼티 값을 읽거나 저장 시 사용
 - get, set을 앞에 붙임
 - 함수처럼 지정되었지만 프로퍼티 처럼 사용된다>>chain1.chainTitle
@@ -155,6 +156,7 @@
 - 인스턴스에서 바로 접근은 못하도록 은닉, 위 방법들로 제어
 
 ## 상속 (inheritance)
+[inheritance](./inheritance.js)
 - 서로 다른 클래스나 생성자 함수가 같은 속성들을 공유할 때 이들의 관계를 정의함으로써 코드의 중복을 줄이고 효율을 높임
 
 **클래스의 상속 문법**
@@ -175,6 +177,7 @@
 - 부모 클래스의 constructor나 메서드에 추가적인 동작을 넣기 위해 사용.
 
 ## 객체 스프레드와 디스트럭쳐링
+[spread destructuring](./spreadNdestructuring.js)
 **스프레드 (spread)**
 - const class1 = {  x: 1, y: 'A', z: true};  const class2 = { ...class1 };
 -> class1의 property들을 하나하나 class2로 데려 오는 것. 
