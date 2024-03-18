@@ -86,6 +86,18 @@ JavaScript 기초 ~ 빡구현 PJT 까지
   - destructuring `{}`
 
 ⭐️[built in object](./BuiltIn)
+- 빌트인 전역 객체
+- 빌트인 전역 프로퍼티 및 함수
+- String
+  - 생성자 함수
+  - 주요 인스턴스 메서드
+    - at, split, replace
+  - 메서드 체이닝 
+- Number
+  - 생성자 함수
+  - 정적 프로퍼티 : 정적? 생성자를 통하지 않아도 전역으로 사용 가능
+  - 정적 메서드
+  - 인스턴스 메서드
 
 
 
