@@ -79,7 +79,7 @@
 [String MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 **생성자 함수**
-![브라우저에서 String 객체](image.png)
+![브라우저에서 String 객체](./img/image.png)
 
 **유사 배열 객체**
 - string은 유사 배열 객체이다.
@@ -140,11 +140,11 @@
   - replace의 첫 인자가 문자열이면 일치하는 첫 부분만 치환
   - 모두 치환하려면 정규식 /.../g 사용
   - replaceAll은 문자열도 자동으로 /.../g 처럼 인식.
-  ![replace](image-1.png)
+  ![replace](./img/image-1.png)
 
 ### ⭐️ 메서드 체이닝 method chaining
 - **값을 반환하는 인스턴스 메서드를 연속**으로 사용
- ![메서드 체이닝 예시](image-2.png)
+ ![메서드 체이닝 예시](./img/image-2.png)
  - 함수 형 프로그래밍에서 굉장히 많이 사용되는 메서드 체이닝!! 
  - 배열에서 콜백함수와 함꼐 많이 사용!!
  - 연속된 작업을 많이 할 수 있따..!!
@@ -186,7 +186,7 @@
   a. 동일하지 않음 : isFinite, isNaN
     - ⭐️ 전역 객체 (globalThis)의 해당 메소드와의 차이: 암묵적 타입 변환을 하지 않음
     - isFinite(전역 객체)는 유도리 있게 숫자로 변환해서 반환한다는 것.
-    ![isFinite 전역 객체, 정적 프로퍼티 차이](image-3.png)
+    ![isFinite 전역 객체, 정적 프로퍼티 차이](./img/image-3.png)
   b. 동일함 : parseInt, parseFloat
     - 각각 전역의 동명 메서드들을 가리킴 🔗 parseInt 🔗 parseFloat
     - 둘 다 같은 기능
@@ -203,9 +203,75 @@
 
 3. toPrecision
   - 반올림과 지수 표기법을 사용해서 문자열 반환
-  ![toPrecision](image-4.png)
+  ![toPrecision](./img/image-4.png)
 
 4. toString
   - 문자열 값 반환
   - 인자 2~36가 주어지면 해당 수의 진수로 표현. 
-  
+
+
+## Math 객체
+[Math 객체](./MathObject.js)
+[Math MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- 수학에 관련된 기능을 가진 빌트인 객체 
+  - 정적 프로퍼티와 메서드만 제공
+  - `Number` 타입만 지원 - BigInt 사용 불가. 
+
+주요 정적 프로퍼티
+- Math.PI - 원주율
+- Math.E - 자연 로그
+
+**주요 정적 메서드**
+- Math.abs()
+- `ceil` : 올림, `round` : 반올림, `floor` : 내림, `trunc` : 정수부만
+- `pow` : 거듭 제곱 (== **) 
+- `sqrt` : 제곱근
+- `max`,`min` : 인자들 중 최대값과 최소값 : 몇 개 넣든 상관X
+- `rand` : 0~1 사이 무작위 값
+  - ⚠️ 안전한 (균일하고 예측불가한) 난수 생성은 아님!
+  - 보안에 관련된 것이라면 전용 라이브러리 또는 아래 링크의 방식을 쓸 것
+  - 👉 Crypto.getRandomValues 메서드
+- `sin` `cos` `tan` `asin` `acos` `atan`
+
+
+## Date 객체
+[Date 객체](./DateObject.js)
+
+**생성자 함수**
+- 현재 날짜와 시간
+- 밀리초 기준 
+  - (UTC, 그리니치 평균시)으로부터 인자로 주어진 밀리초만큼 경과한 시간 
+- 단위별 숫자 입력
+  - 연,월 필수
+  - 일,시,분,초,밀리초 옵션 없을 시 0
+
+**정적 메서드**
+1. `now`
+  - 현재의 밀리초 숫자값 (앞으로 UTC 1970/1/1 자정부터 경과값 의미) 반환
+2. `parse`, `UTC`
+  - 주어진 시간의 밀리초 숫자값 반환
+  - `parse`는 dataString, `UTC`는 단위별 숫자를 받음
+
+**인스턴스 메서드**
+1. `toString`, `toDateString`, `toTimeString`
+  - 각각 전체, 날짜만, 시간만 나타내는 문자열 출력
+  - 시스템(컴퓨터)의 언어 설정별로 다르게 나타남.
+
+2. toLocaleString
+  - 주어진 언어 코드를 기준으로 표현한 문자열 반환
+  - 인자가 없을 시 시스템의 언어 적용
+  - now.toLocaleString('ko-KR')
+
+3. 단위별 setter, getter 메서드들
+
+4. `getTime`, `setTime`
+  - 밀리초 숫자값을 set/get
+
+5. getTimezoneOffset
+  - 시스템의 시간대와 UTC 차이 반환 ( 내 컴퓨터와 UTC 차이 )
+
+6. toISOString
+  - ISO8061이란 형식의 문자열 반환
+  - UTC 기준으로 반환
+  ⭐️ 현재시각으로 맞추기
+  ![현재 시간으로 맞추기](./img/image-5.png)
