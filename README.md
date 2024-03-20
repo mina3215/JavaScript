@@ -102,6 +102,16 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - Date
 
 ⭐️[Array](./Array) : 자바스크립트의 배열은 조금 다르다.
+- 배열의 기본 특징 
+  - JS의 배열과 다른 배열의 차이점 
+  - `of`, `from`
+- 배열의 메서드
+  - 정적(return) : `isArray`, `at`, `includ`, `indexOf,lastIndexOf`, `join`
+  - 배열 변경 : `push, unshift`, `pop, shift`, `splice`, `fill`, `reverse`
+  - 새 배열 return : `concat`, `slice`, `flat` << 얘넨 얕은 복사
+- 고차함수 메서드 : 인자로 다른 함수를 받는 함수.
+  - `forEach`, `map`, `find, findLast...`, `some, every`, `filter`, `reduce, reduceRight` `flatMap`
+- 배열의 스프레드와 디스트럭쳐링
 
 
 
