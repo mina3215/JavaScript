@@ -31,12 +31,14 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - JavaScript는 “Prototype” 기반의 객체 지향 언어이기 때문에 C++이나 JAVA와는 다르다.
 - ECMA라는 국제 기관에서 JS의 표준을 제작한다! (JavaScript = ECMAScript!)
 
-[Basic](./Basic)
+# 목차
+
+**[Basic](./Basic)**
 
 - console.log
 - 변수와 상수 (let, const)
 
-[Datatype](./DataType&Operator)
+**[Datatype](./DataType&Operator)**
 
 - 자료형> 원시 자료형, 참조 자료형 
 - 자료형의 정적, 동적 타입 
@@ -47,14 +49,14 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - 객체와 배열
 - 원시 타입 vs 참조 타입
 
-[Controll](./Controll/)
+**[Controll](./Controll/)**
 - 블럭과 스코프
 - if else 
 - for >> for of for in
 - while
 - switch
 
-⭐️[Function](./Function/)
+**⭐️[Function](./Function/)**
 - 기본 함수 사용 > 기본 함수형, 변수형, 화살표 함수
 - 일급 객체 = 함수
 - 컬링
@@ -65,7 +67,7 @@ JavaScript 기초 ~ 빡구현 PJT 까지
   - IIFE
   - 불변성
 
-⭐️[Object & Class](./Object&Class/)
+**⭐️[Object & Class](./Object&Class/)**
 - 객체 기초
   - 객체 리터럴 : ({}) 중괄호로 키 value 값 갖고 있는거.
 - 생성자 함수
@@ -85,7 +87,7 @@ JavaScript 기초 ~ 빡구현 PJT 까지
   - spread `...`
   - destructuring `{}`
 
-⭐️[built in object](./BuiltIn)
+**⭐️[built in object](./BuiltIn)**
 - 빌트인 전역 객체
 - 빌트인 전역 프로퍼티 및 함수
 - String
@@ -101,7 +103,7 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - Math
 - Date
 
-⭐️[Array](./Array) : 자바스크립트의 배열은 조금 다르다.
+**⭐️[Array](./Array) : 자바스크립트의 배열은 조금 다르다.**
 - 배열의 기본 특징 
   - JS의 배열과 다른 배열의 차이점 
   - `of`, `from`
