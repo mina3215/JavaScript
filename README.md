@@ -115,8 +115,24 @@ JavaScript 기초 ~ 빡구현 PJT 까지
   - `forEach`, `map`, `find, findLast...`, `some, every`, `filter`, `reduce, reduceRight` `flatMap`
 - 배열의 스프레드와 디스트럭쳐링
 
-
 ⭐️[ES14 - 2023](https://www.yalco.kr/lectures/javascript-2023/) : 필수로 확인하기
+
+
+**⭐️[Deep Object](./Object)**
+- Object
+  - 주요 정적 메서드 : 
+    - `assign` `keys` `values` `entries`
+    - `preventExtensions` `seal` `freeze`
+- 프로퍼티 어트리뷰트
+  - 정적 메서드 
+    - `getOwnPropertyDescriber` `getOwnPropertyDescriptors`
+    - `defineProperty` `defineProperties`
+  - 깊은 동결 
+- JSON
+  - JSON.stringfy(obj, replacer, indent)
+  - JSON.parse(obj, reciever)
+  - 깊은 복사 : `JSON` `structuredClone`
+
 
 # CSS
 
