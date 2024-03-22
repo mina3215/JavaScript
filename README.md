@@ -134,7 +134,9 @@ JavaScript 기초 ~ 빡구현 PJT 까지
   - 깊은 복사 : `JSON` `structuredClone`
 
 **[이터러블과 제너레이터](./Iterable&Generator)**
-
+- 추가 자료형들 
+  - `진수`, `BigInt`, `Symbol`
+  
 
 # CSS
 
