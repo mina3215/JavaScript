@@ -136,7 +136,21 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 **[이터러블과 제너레이터](./Iterable&Generator)**
 - 추가 자료형들 
   - `진수`, `BigInt`, `Symbol`
-  
+- 이터러블한 자료형
+  - `Set` `MAP` 
+- 이터러블
+  - 이터러블 프로토콜
+  - 이터레이터 프로토콜
+- 제네레이터
+
+**[여러가지 문제들](./ErrorHandling/)**
+- 에러 핸들링
+  - try catch
+  - Error 객체
+  - 이벤트 버블링
+- var
+- 엄격모드
+- ⭐옵셔널 체이닝 `.?`
 
 # CSS
 
