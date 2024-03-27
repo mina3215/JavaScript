@@ -13,13 +13,13 @@
 - 구성요소
   - 환경 레코드 environment record - 해당 스코프의 데이터들
   - 외부 렉시컬 환경에 대한 참조 outer lexical environment reference
-![alt text](/img/image.png)
+![alt text](./img/image.png)
 
 
 **클로저 closuer**
 - 내부 함수에서 외부 함수의 값에 접근할 수 있다는 개념 - 함수 중첩시
-![alt text](/img/image-1.png)
-![alt text](/img/image-2.png)
+![alt text](./img/image-1.png)
+![alt text](./img/image-2.png)
 
 **⭐️ private field 흉내내기**
 - 코드 파일에.
@@ -88,8 +88,8 @@
 - 로그의 출력이 다 다르다. 
 - fuㄴnc1만 생성자 역할을 수행한다. 
  -  function 선언 함수만 생성자로 활용 가능 - 더 많은 기능이 있고 무겁다는 의미
-![alt text](/img/image-3.png)
-![alt text](/img/image-4.png)
+![alt text](./img/image-3.png)
+![alt text](./img/image-4.png)
 
 
 **화살표 함수와 `this`**
