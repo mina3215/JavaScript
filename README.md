@@ -158,6 +158,12 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - this 정적 바인딩
   - 화살표 함수와 function, 메서드의 차이
 
+**[프로토타입](./Prototype/)**
+- 프로토타입 기본 
+  
+- 프로토타입의 상속
+  - class와 비교해서
+
 # CSS
 
 # JS 구현 문제
