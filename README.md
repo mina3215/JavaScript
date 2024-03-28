@@ -164,6 +164,13 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - 프로토타입의 상속
   - class와 비교해서
 
+**[비동기](./Asynchronous/)**
+- 비동기의 개념
+  - setTimeOut
+  - Eventloop
+- Promise
+
+
 # CSS
 
 # JS 구현 문제
