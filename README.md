@@ -174,6 +174,15 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - async&await
 - Fetch
 
+**[코드파일 다루기](./webBasic)**
+- HTML에 불러오는 방법들
+- 모듈과 라이브러리
+- 웹팩과 바벨
+- JSDoc
+- 디버깅
+
+
+
 # CSS
 
 # JS 구현 문제

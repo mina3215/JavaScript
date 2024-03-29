@@ -14,19 +14,19 @@
 🏃 달리기 경주 예제 - 코드에.
 
 **⭐과정 설명**
-![alt text](image.png)
+![alt text](./img/image.png)
 - 자바스크립트의 코드는 싱글 스레드로 실행 - 외나무다리
   => JavaScript 엔진이 한줄로 테스크를 진행한다. 
-![alt text](image-1.png)
+![alt text](./img/image-1.png)
 - 실행시점에 도착하면 동기 코드는 실행
 - 비동기 콜백 코드는 환경(Web API 등)으로 넘겨줌
-![alt text](image-2.png)
+![alt text](./img/image-2.png)
 - 자바스크립트의 실행환경은 멀티스레드 - 다차선 도로
 - 여러 작업들이 동시다발적으로 진행될 수 있음
   - **코드는 싱글 스레드로 돌아가지만, Node.js나 브라우저에서 Multi 스레드로 작업하기 때문에 비동기는 동시에 처리된다.**
-![alt text](image-3.png)
+![alt text](./img/image-3.png)
 - 주어진 작업을 마친 작업들은 태스크 큐 task queue 선로로 진입한다. 
-![alt text](image-4.png)
+![alt text](./img/image-4.png)
 - 이벤트 루프 event loop - 태스크 큐의 작업이 도착하는대로 자바스크립트 실행도로에 올려 놓는다
 - 동기 코드가 모두 실행된 다음 진행된다 - 지연 시간을 0으로 해도 나중에 실행되는 이유. 
 [MDN - 이벤트 루프](https://developer.mozilla.org/ko/docs/Web/JavaScript/Event_loop)
@@ -37,7 +37,7 @@
 [Promise](./promise.js)
 - 콜백 지옥 callback hell
 
-![alt text](image-5.png)
+![alt text](./img/image-5.png)
 
 💡 연속적으로 비동기 코드를 써야 하는 경우
 - 위와 같이 콜백 함수 안에 또 다른 콜백 함수를 넣어야 하는 상황 발생 - 콜백 지옥
