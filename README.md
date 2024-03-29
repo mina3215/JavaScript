@@ -169,7 +169,10 @@ JavaScript 기초 ~ 빡구현 PJT 까지
   - setTimeOut
   - Eventloop
 - Promise
-
+  - `resolve, reject` - `catch, then, finally`
+  - `all` `allSelect` `any` `race`
+- async&await
+- Fetch
 
 # CSS
 
