@@ -182,6 +182,10 @@ JavaScript 기초 ~ 빡구현 PJT 까지
 - JSDoc
 - 디버깅
 
+**[웹 페이지에 활용하기]**
+- DOM 개념 
+
+
 
 
 # CSS
