@@ -32,4 +32,14 @@
 
 - MVC 패턴을 사용해서 구현
 
-- 
+
+
+### 추가 공부 
+1. VanilaJS
+  - `distructuring` 
+    - const {value} = 객체 : 디스트럭쳐링으로 value 값만 받은 것
+  - `querySelector()` : html의 속성이나 css를 받을 수 있다. 
+  - `dispatchEvent` : `customEvent`를 만들고, 이벤트를 실행해 줌. 
+    - bubbles=true를 통해 이벤트 버블링도 할 수 있다. [[이벤트 버블링?]](https://jhyonhyon.tistory.com/24)
+    - `이벤트 버블링` : 하위 요소에서 발생한 이벤트를 부모 요소로 거슬러 올라가며 전파하는 것. 
+  - JS에서 파라미터가 부족하게 넘어오는 경우, undefined로 채워진다. 
